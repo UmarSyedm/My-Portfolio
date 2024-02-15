@@ -1,0 +1,327 @@
+<!-- Github Repo: https://github.com/nisarhassan12/portfolio-template/
+My Website: https://nisar.dev -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <title>
+    My Portfolio
+  </title>
+
+  <meta name="description" content="Add small description of yourself.">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+  <meta name="keywords" content="Put your name, skills and some coding keywords" />
+  <link rel="stylesheet" href="index.css" />x
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">My Projects</a></li>
+          <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+          <!-- <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li> -->
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <!-- Replace the following name with your name -->
+          <span>Umar Murtuza Syed</span>
+        </h1>
+        <!-- Put a small paragraph about yourself -->
+        <p>Aspiring Software Developer based in Bangalore.</p>
+        <a href="https://drive.google.com/file/d/1njVv0nBYALSaBat7QcAEV8GX7wPYd7S3/view?usp=sharing" class="btn">My Resume</a>
+        <a href="#contact" class="btn">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Projects</h2>
+        <div class="work__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Product Management System</h3>
+              <p>
+                <i>Technologies used: Spring Boot, MySQL, ReactJS</i>
+              </p>
+              <ul class="work__list">
+                <li>Developed a comprehensive Product Management System using Spring Boot and MySQL 
+                  Workbench for the backend, coupled with ReactJs, HTML, and CSS for the frontend.
+                </li>
+                <li>Implemented robust CRUD operations, providing seamless data management capabilities 
+                  for products, enhancing the system's usability and efficiency.
+                </li>
+                <li>Optimized the project for performance and scalability, ensuring smooth operation 
+                  even with a growing dataset. Employed best practices in coding and database indexing 
+                  to enhance system responsiveness.</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/UmarSyedm/Product_Management_System" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/UmarSyedm/Product_Management_System">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/homePageNew.png" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Online Meal Preparation Service</h3>
+              <p>
+                <i>Technologies used: SQLite, Python, JavaScript, PHP</i>
+              </p>
+              <ul class="work__list">
+                <li>Developed and implemented a website structure and pages to handle the requirements
+                  of a meal preparation and delivery service, resulting in improved user experience and
+                  increased customer satisfaction.</li>
+                <li>Implemented advanced algorithms to analyze user statistics and preferences, allowing
+                  the website to cater personalized food recommendations to each user based on their unique
+                  tastes and preferences.</li>
+                <li>Integrated triggers into the SQLite database to automatically fill in user details,
+                  reducing manual data entry by 50% and improving data accuracy.</li>
+                <li>Crafted visually appealing website interfaces with dynamic themes, tailoring user
+                  preferences and leveraging statistics for enhanced engagement.</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/UmarSyedm/Online-Meal-Preparation-Service" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/UmarSyedm/Online-Meal-Preparation-Service" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/mealPrepHomePage.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>OpenCV Document Scanner</h3>
+              <p>
+                Technologies used: Python, OpenCV
+              </p>
+              <ul class="work__list">
+                <li>Automated image extraction and enhancement from PDF files using Python and OpenCV,
+                  resulting in a 50% reduction in the number of pages for a single page view.</li>
+                <li>Implemented edge detection and cropping algorithms to enhance the quality of images
+                  extracted from PDF files, resulting in improved readability and with an accuracy of 90%.</li>
+                <li>Developed a data extraction tool that eliminated manual errors and saved significant
+                  time by automatically extracting required data from PDF files and storing them as images.
+                  Resulted in 80% reduction in manual work.</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/UmarSyedm/Image-Editor" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/UmarSyedm/Image-Editor">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-2.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Skills ***** -->
+
+    <section class="skills" id="skills">
+      <div class="row">
+        <h2>Skills</h2>
+        <div class="skills__boxes">
+
+          <!-- Technical Skills Box -->
+          <div class="skills__box">
+            <h3>Technical Skills</h3>
+            <!-- Add your technical skills here -->
+            <li>Java</li>
+            <li>MySQL</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <!-- <p>Java, SQL, Python, HTML, CSS, JavaScript</p> -->
+          </div>
+
+          <!-- Tools Used Box -->
+          <div class="skills__box">
+            <h3>Tools Used</h3>
+            <li>Eclipse IDE</li>
+            <li>Spring Tool Suite IDE</li>
+            <li>Git</li>
+            <li>Jenkins</li>
+            <!-- Add tools you've used here -->
+            <!-- <p>Eclipse IDE, Git, Jenkins, etc.</p> -->
+          </div>
+
+          <!-- Automation Tools Box -->
+          <div class="skills__box">
+            <h3>Automation Tools</h3>
+            <!-- Add automation tools you've used here -->
+            <li>Selenium</li>
+            <li>JUnit</li>
+            <li>TestNG</li>
+            <li>Cucumber</li>
+            <li>Hybrid</li>
+            
+            <!-- <p>, JUnit, TestNG, etc.</p> -->
+          </div>
+          
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Clients ***** -->
+
+    <!-- <section class="client" id="clients">
+      <div class="row">
+        <h2>Clients</h2>
+        <div class="client__logos"> -->
+          <!-- Add logos of the clients or companies you'have worked with. -->
+          <!-- <img src="./images/ronjones.png" class="client__logo" alt="Company 2" />
+          <img src="./images/goldengrid.png" class="client__logo" alt="Company 3" />
+          <img src="./images/bullseye.png" class="client__logo" alt="Company 1" />
+          <img src="./images/mighty-furnitures.png" class="client__logo" alt="Company 1" />
+          <img src="./images/fastlane.png" class="client__logo" alt="Company 3" />
+          <img src="./images/chippy.png" class="client__logo" alt="Company 1" />
+        </div>
+      </div>
+    </section> -->
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+              To seek an organization that encourages continuous learning, professional
+              growth and provides exposure to challenging ventures. I am willing to work
+              towards the betterment of the company and society with dedication, perseverance,
+              and hard work.<br> Actively seeking Software Development Engineer roles to leverage
+              my strong proficiency in Java, SQL, Python, and Web Technologies, and to
+              contribute my skills and expertise to challenging projects.
+            </p>
+            <!-- Provide a link to your resume -->
+            <a href="https://drive.google.com/file/d/1njVv0nBYALSaBat7QcAEV8GX7wPYd7S3/view?usp=sharing" class="btn">My
+              Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/portfolio1.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          I'm thrilled that you've taken the time to explore my work. If you have any questions,
+          would like to discuss potential collaborations, or simply want to share your thoughts,
+          this is the space for it. Your connection means a lot to me, and I'm here to provide
+          any information you may need.<br>
+          Feel free to use the provided contact form or reach out to me directly through the contact
+          details below. Your feedback, inquiries, or just a friendly hello are all welcomed and
+          appreciated. Thank you for considering my portfolio, and I look forward to connecting with you!<br><br>
+
+          Umar Murtuza Syed<br>
+          9790100404<br>
+        </p>
+        <a href="sma.pilot@gmail.com" class="btn">sma.pilot@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://twitter.com/umarsyedx/" title="Link to Twitter Profile">
+            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://github.com/UmarSyedm/" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href=https://www.linkedin.com/in/umar-murtuza-syed/">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image"
+              alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+      <p>
+        &copy; Umar Murtuza Syed. All rights reserved.
+      </p>
+      <!-- <div class="footer__github-buttons">
+        <iframe
+          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
+          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
+        </iframe>
+      </div> -->
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image" />
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
